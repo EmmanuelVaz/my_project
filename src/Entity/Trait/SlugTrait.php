@@ -14,7 +14,7 @@ trait SlugTrait {
 
     public function setSlug(string $slug): self
     {
-        $this->created_at = $slug;
+        $this->slug = $slug;
 
         return $this;
     }
